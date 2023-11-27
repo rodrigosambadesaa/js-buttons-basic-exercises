@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Botones</title>
+</head>
+
+<body>
+  <noscript>
+    Cuando las variables son declaradas ellas tienen el valor de inicial de undefined. Si tu
+    realizas una operación matemática con una viarible indefinida el resultado es NaN que
+    signifcia "Not a Number". Si tu concatenas una cadena de texto (string) con una
+    variable undefined se verá la cadena literal "undefined"
+  </noscript>
+  <main class="container">
+    <h1 class="title">Botones</h1>
+    <fieldset>
+      <legend class="title">Ejercicio 1</legend>
+      <p>Al pulsar el botón saludar debe salir un mensaje que te salude</p>
+      <button id="bt-1">Saludar</button>
+      <pre>
+<code>
+  document.querySelector('#bt-1')
+    .addEventListener(
+      'click',
+      miFuncion
+    )
+</code>
+      </pre>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 2</legend>
+      <p>Al pulsar el botón debe aparecer un mensaje que diga tu nombre</p>
+      <button id="bt-2">Dime tu nombre</button>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 3</legend>
+      <pre>
+Escribe el siguiente código:
+let a;
+let b = 2;
+      </pre>
+      <ul>
+        <li>Antes de nada, ¿qué valor tiene la variable <mark>a</mark> por defecto?</mark></li>
+        <li>¿Qué ocurren cuando intentas realizar una operación aritmética con un valor <em>undefined</em>?. Pista:
+          etiqueta noscript</li>
+        <li>
+          Al pulsar el botón "Asignar" ocurrirá todo esto
+          <ul>
+            <li>Asigna el valor 7 a la variable <em>a</em></li>
+            <li>
+              Asigna el valor <em>a</em> a <em>b</em>
+            </li>
+            <li>Muestra los valores que tenemos en la variable</li>
+          </ul>
+        </li>
+      </ul>
+      <button id="bt-3">Asignar</button>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 4</legend>
+      <p>Crea tres variables <mark>a</mark>, <mark>b</mark>, <mark>c</mark>. E inicialízalas con 5, 10 y “Estudio informática”
+        b. Mira el resultado en pantalla de la operación console.log(a+b+c);</p>
+      <button id="bt-4">Dame resultado</button>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 5</legend>
+      <p><em>JavaScript</em> es sensible a las mayúsculas y minúsculas. Para crear variables que utilizan
+        más de una palabra se utiliza el sistema <strong>camelCase</strong>, es decir la primera letra de cada
+        palabra se escribe en mayúsculas menos la primera letra de la palabra. Por ejemplo,
+        para crear una variable llamada “nombre de pila” se escribiría algo como <em>nombrePila</em>.
+        Modifica las variables que vienen a continuación de forma apropiada:
+        </p>
+        <ol>
+          <li>let Estudios_del_alumno;</li>
+          <li>let OPERADOR1</li>
+          <li>let REsultadofinal</li>
+        </ol>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 6</legend>
+      <p>Crea una variable llamada <em>i</em> y asígnale el valor de 1. Haz que dicha variable valga 2 utilizando un prompt()</p>
+      <button id="bt-6">Dispatch</button>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 7</legend>
+      <p>
+        Crea dos variables una llamada divisor otro dividendo. Obtén:
+      </p>
+      <ol>
+        <li>El cociente</li>
+        <li>El resto</li>
+      </ol>
+      <button id="bt-7">Dispatch</button>
+    </fieldset>
+
+    <fieldset>
+      <legend class="title">Ejercicio 8</legend>
+      <p>
+        Declara dos variables:
+      </p>
+      <ol>
+        <li>nombre</li>
+        <li>apellidos</li>
+      </ol>
+      <p>
+        Saca un mensaje por pantalla que muestre el nombre concatenado
+      </p>
+      <button id="bt-8">Dispatch</button>
+    </fieldset>
+
+    
+  </main>
+</body>
+
+</html>
