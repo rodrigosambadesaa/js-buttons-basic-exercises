@@ -84,6 +84,8 @@ legend.title {
   font-style: italic;
   font-weight: 900;
   background-color: rgb(255 255 255 / 65%);
+  aspect-ratio: 3 / 1;
+  block-size: .5rem;
 
 }
 
