@@ -2,14 +2,18 @@ function miFuncion() {
     alert("Hola, Rodrigo")
 }
 
-document.querySelector('#bt-1').addEventListener('click', miFuncion)
+const bt1 = document.querySelector('#bt-1')
+
+bt1.addEventListener('click', miFuncion)
 
 function decirNombre() {
     const nombre = prompt("Introduzca su nombre")
     alert(nombre)
 }
 
-document.querySelector('#bt-2').addEventListener('click', decirNombre)
+const bt2 = document.querySelector('#bt-2')
+
+bt2.addEventListener('click', decirNombre)
 
 function botonAsignar() {
     let a
@@ -19,30 +23,40 @@ function botonAsignar() {
     console.log(a, b)
 }
 
-document.querySelector('#bt-3').addEventListener('click', botonAsignar)
+const bt3 = document.querySelector('#bt-3')
+
+bt3.addEventListener('click', botonAsignar)
 
 function dameResultado () {
     let a = 5, b = 10, c = "Estudio informática"
     console.log(a + b + c)
 }
 
-document.querySelector('#bt-4').addEventListener('click', dameResultado)
+const bt4 = document.querySelector('#bt-4')
+
+bt4.addEventListener('click', dameResultado)
 
 function cambiarValorConPrompt() {
     let i = 1
     i = parseInt(prompt('Introduzca el nuevo valor de i'))
+    console.log("El valor de i es: " + i)
 }
 
-document.querySelector('#bt-6').addEventListener('click', cambiarValorConPrompt)
+const bt6 = document.querySelector('#bt-6')
+
+bt6.addEventListener('click', cambiarValorConPrompt)
 
 function cocienteResto() {
     let dividendo = 5
     let divisor = 3
     let cociente = Math.floor(dividendo / divisor)
-    let resto = dividendo % divisor 
+    let resto = dividendo % divisor
+    console.log("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y resto " + resto) 
 }
 
-document.querySelector('#bt-7').addEventListener('click', cocienteResto)
+const bt7 = document.querySelector('#bt-7')
+
+bt7.addEventListener('click', cocienteResto)
 
 function nombreConcatenado() {
     const nombre = "Rodrigo"
@@ -50,4 +64,6 @@ function nombreConcatenado() {
     alert(nombre + apellidos)
 }
 
-document.querySelector('#bt-8').addEventListener('click', nombreConcatenado)
+const bt8 = document.querySelector('#bt-8')
+
+bt8.addEventListener('click', nombreConcatenado)
