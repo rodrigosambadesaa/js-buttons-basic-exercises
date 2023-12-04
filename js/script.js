@@ -52,6 +52,11 @@ function cambiarValorConPrompt() {
     console.log("El valor de i es: " + i)
 }
 
+// Ejercicio 5
+let estudiosDelAlumno
+let operador1
+let resultadoFinal
+
 const bt6 = document.querySelector('#bt-6')
 
 bt6.addEventListener('click', cambiarValorConPrompt)
