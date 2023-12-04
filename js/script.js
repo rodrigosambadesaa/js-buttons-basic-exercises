@@ -47,9 +47,16 @@ const bt4 = document.querySelector('#bt-4')
 bt4.addEventListener('click', dameResultado)
 
 function cambiarValorConPrompt() {
-    let i = 1
-    i = parseInt(prompt('Introduzca el nuevo valor de i'))
-    console.log("El valor de i es: " + i)
+    let i = 1;
+    let userInput = prompt('Introduzca el nuevo valor de i', 2);
+    
+    // // Intenta convertir el valor introducido a un número decimal (float)
+    // let parsedValue = parseFloat(userInput);
+
+    // if (!isNaN(parsedValue)) {
+    //     // Si se pudo convertir a un número, muestra el valor
+    //     console.log("El valor de i es: " + parsedValue);
+    // }
 }
 
 // Ejercicio 5
