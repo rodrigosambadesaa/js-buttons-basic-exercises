@@ -38,7 +38,7 @@ const bt3 = document.querySelector('#bt-3')
 bt3.addEventListener('click', botonAsignar)
 
 function dameResultado () {
-    let a = 5, b = 10, c = "Estudio informática"
+    const a = 5, b = 10, c = "Estudio informática"
     console.log(a + b + c)
 }
 
@@ -57,10 +57,10 @@ const bt6 = document.querySelector('#bt-6')
 bt6.addEventListener('click', cambiarValorConPrompt)
 
 function cocienteResto() {
-    let dividendo = 5
-    let divisor = 3
-    let cociente = Math.floor(dividendo / divisor)
-    let resto = dividendo % divisor
+    const dividendo = 5
+    const divisor = 3
+    const cociente = Math.floor(dividendo / divisor)
+    const resto = dividendo % divisor
     console.log("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y resto " + resto) 
 }
 
