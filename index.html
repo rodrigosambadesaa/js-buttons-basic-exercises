@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon-active.ico" type="image/x-icon">
   <title>Botones</title>
+  <!-- See info about use confetti in https://www.npmjs.com/package/js-confetti -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script> -->
+  <script async src="js/script.js" type="module"></script>
 </head>
 
 <body>
@@ -23,14 +27,23 @@
       <p>Al pulsar el botón saludar debe salir un mensaje que te salude</p>
       <button class="btn" id="bt-1">Saludar</button>
       <pre>
-<code>
-  document.querySelector('#bt-1')
-    .addEventListener(
-      'click',
-      miFuncion
-    )
-</code>
-      </pre>
+        <code>
+          document.querySelector('#bt-1')
+          .addEventListener(
+            'click',
+            miFuncion
+            )
+          </code>
+        </pre>
+        <ul>
+          <li class="definition">Una función en programación es un bloque de código que realiza una tarea específica o calcula un valor y puede aceptar ciertos datos, llamados parámetros, como entrada. Las funciones son una forma de organizar y reutilizar el código en programas más grandes.
+  <code class="pre">
+  function miFuncion () {
+    console.log('Hi')
+  }
+  </code>
+          </li>
+        </ul>
     </fieldset>
 
     <fieldset class="card">

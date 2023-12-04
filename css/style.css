@@ -9,6 +9,11 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 p {
   line-height: 1.5;
 }
@@ -17,6 +22,16 @@ fieldset, legend {
   margin: 0;
   padding-bottom: 30px;
   border-style: none;
+}
+
+.definition {
+  font-size: small;
+}
+
+.pre {
+  position: relative;
+  top: .5rem;
+  white-space: pre;
 }
 
 .scrool {
@@ -28,8 +43,6 @@ fieldset, legend {
   animation-duration: auto;
   animation-timeline: scroll(root);
   box-shadow: 0 0 1rem .5rem black;
-
-  
 
 }
 
@@ -84,6 +97,8 @@ legend.title {
   font-style: italic;
   font-weight: 900;
   background-color: rgb(255 255 255 / 65%);
+  aspect-ratio: 3 / 1;
+  block-size: .5rem;
 
 }
 
