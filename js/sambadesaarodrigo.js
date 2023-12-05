@@ -1,9 +1,16 @@
 function cocienteResto() {
-    const dividendo = 5
-    const divisor = 3
-    const cociente = Math.floor(dividendo / divisor)
-    const resto = dividendo % divisor
-    console.log("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y resto " + resto) 
+    const dividendo = prompt("Introduzca el dividendo")
+
+    if (dividendo != null) {
+        const divisor = prompt("Introduzca el divisor")
+    
+        if (divisor != null) {
+            const cociente = Math.floor(dividendo / divisor)
+            const resto = dividendo % divisor
+            console.log("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y resto " + resto)  
+        }
+
+    }
 }
 
 const bt7 = document.querySelector('#bt-7')
@@ -11,9 +18,15 @@ const bt7 = document.querySelector('#bt-7')
 bt7.addEventListener('click', cocienteResto)
 
 function nombreConcatenado() {
-    const nombre = "Rodrigo"
-    const apellidos = " Sambade Saa"
-    alert(nombre + apellidos)
+    const nombre = prompt("Introduzca su nombre")
+
+    if (nombre != null) {
+        const apellidos = prompt("Introduzca sus apellidos")
+
+        if (apellidos != null) {
+            alert(nombre + apellidos)
+        }
+    }
 }
 
 const bt8 = document.querySelector('#bt-8')
