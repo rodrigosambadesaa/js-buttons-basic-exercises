@@ -7,9 +7,8 @@ function cocienteResto() {
         if (divisor != null) {
             const cociente = Math.floor(dividendo / divisor)
             const resto = dividendo % divisor
-            console.log("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y resto " + resto)  
+            alert("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y de resto " + resto)  
         }
-
     }
 }
 
@@ -24,7 +23,7 @@ function nombreConcatenado() {
         const apellidos = prompt("Introduzca sus apellidos")
 
         if (apellidos != null) {
-            alert(nombre + apellidos)
+            alert(nombre + " " + apellidos)
         }
     }
 }
