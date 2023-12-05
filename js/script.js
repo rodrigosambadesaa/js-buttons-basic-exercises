@@ -71,7 +71,7 @@ bt6.addEventListener('click', cambiarValorConPrompt)
 function cocienteResto() {
     const dividendo = 5
     const divisor = 3
-    const cociente = Math.floor(dividendo / divisor)
+    const cociente = dividendo / divisor
     const resto = dividendo % divisor
     console.log("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y resto " + resto) 
 }

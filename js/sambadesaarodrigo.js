@@ -5,7 +5,7 @@ function cocienteResto() {
         let divisor = prompt("Introduzca el divisor")
     
         if (divisor != null) {
-            let cociente = Math.floor(dividendo / divisor)
+            let cociente = dividendo / divisor
             let resto = dividendo % divisor
             alert("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y de resto " + resto)  
         }
