@@ -30,7 +30,7 @@ function botonAsignar() {
     let b = 2
     a = 7
     b = a
-    console.log(a, b)
+    console.log('a: ' + a + ' b: ' + b)
 }
 
 const bt3 = document.querySelector('#bt-3')
@@ -47,6 +47,7 @@ const bt4 = document.querySelector('#bt-4')
 bt4.addEventListener('click', dameResultado)
 
 function cambiarValorConPrompt() {
+<<<<<<< Updated upstream
     let i = 1;
     let userInput = prompt('Introduzca el nuevo valor de i', 2);
     
@@ -57,6 +58,11 @@ function cambiarValorConPrompt() {
     //     // Si se pudo convertir a un número, muestra el valor
     //     console.log("El valor de i es: " + parsedValue);
     // }
+=======
+    let i = 1
+    i = Number(prompt('Introduzca el nuevo valor de i', 2))
+    console.log("El valor de i es: " + i)
+>>>>>>> Stashed changes
 }
 
 // Ejercicio 5
