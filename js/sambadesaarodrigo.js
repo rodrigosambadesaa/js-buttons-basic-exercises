@@ -1,3 +1,5 @@
+const msg7 = document.querySelector('#msg-7')
+
 function cocienteResto() {
     let dividendo = prompt("Introduzca el dividendo")
 
@@ -8,6 +10,7 @@ function cocienteResto() {
             let cociente = dividendo / divisor
             let resto = dividendo % divisor
             alert("La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y de resto " + resto)  
+            msg7.textContent = "La división entre " + dividendo + " y " + divisor + " tiene de cociente " + cociente + " y de resto " + resto
         }
     }
 }
